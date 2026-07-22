@@ -1,20 +1,22 @@
-**Smart Hydro Forecast: AI-Based Hydroelectric Generation Prediction**
+# 🌊 Smart Hydro Forecast: AI-Based Hydroelectric Generation Prediction
 
-**Project Overview**
+## 📖 Project Overview
 
-Smart Hydro Forecast is an AI and ML project that predicts hydroelectric power generation using environmental and weather-related data.
-The project helps improve energy planning and water resource management.
+Smart Hydro Forecast is an AI & ML  project that predicts hydroelectric power generation using historical electricity production and consumption data. The project applies regression algorithms to estimate hydroelectric energy generation accurately, helping improve energy planning and resource management.
 
-**Features**
 
-- Data preprocessing
-- Exploratory Data Analysis (EDA)
-- Machine Learning model training
-- Performance evaluation
-- Hydroelectric power prediction
-- Data visualization
 
-**Technologies Used**
+## ✨ Features
+
+- 📊 Data preprocessing
+- 🔍 Exploratory Data Analysis (EDA)
+- 🤖 Machine Learning model training
+- 📈 Model performance evaluation
+- ⚡ Hydroelectric power prediction
+- 📉 Data visualization
+- 🏆 Best model selection
+
+## 🛠️ Technologies Used
 
 - Python
 - Google Colab
@@ -23,44 +25,70 @@ The project helps improve energy planning and water resource management.
 - Matplotlib
 - Seaborn
 - Scikit-learn
+- XGBoost
 
-**Dataset**
+## 📂 Dataset
 
-The dataset contains environmental factors such as:
+The dataset contains electricity generation and consumption information with the following features:
 
-- Rainfall
-- Temperature
-- Humidity
-- Water Level
-- Wind Speed
-- Other weather parameters
+- DateTime
+- Consumption
+- Production
+- Nuclear
+- Wind
+- Hydroelectric (Target Variable)
+- Oil and Gas
+- Coal
+- Solar
+- Biomass
 
-**Machine Learning Workflow**
 
-1. Import Dataset
-2. Data Cleaning
-3. Data Visualization
-4. Feature Selection
-5. Train-Test Split
-6. Model Training
-7. Prediction
-8. Model Evaluation
+## 📊 Model Performance:
+**Linear Regression**
 
-**Installation**
+- ✅ MAE: **9.87**
+- ✅ RMSE: **30.86**
+- ✅ R² Score: **0.9979**
 
-Clone the repository:
 
+## ⚙️ MACHINE LEARNING WORKFLOW
+
+1. 📥 Import Dataset
+2. 🧹 Data Cleaning
+3. 📊 Data Visualization
+4. 🎯 Feature Selection
+5. 🔀 Train-Test Split
+6. 🤖 Model Training
+7. 🔮 Prediction
+8. 📈 Model Evaluation
+
+## 🚀 INSTALLATION
+
+### 📥 CLONE THE REPOSITORY
+
+`
 git clone https://github.com/dharshinibalamurali/Smart-Hydro-Forecast.git
 
-**Install required libraries:**
 
-pip install -r requirements.txt
+###  📦 INSTALL REQUIRED LIBRARIES
 
-**Developer**
+  pip install -r requirements.txt
 
-B.Dharshini
-B.Tech Information Technology
-Nehru Institute of Engineering and Technology
+ 
+## 📁 PROJECT STRUCTURE:
+
+Smart-Hydro-Forecast/
+│── AIML_CT_PROJECT_B_DHARSHINI.ipynb
+│── README.md
+│── dataset.csv 
+
+
+## 👩‍💻 AUTHOR
+
+ **B. Dharshini**  
+🎓 B.Tech Information Technology  
+🏫 Nehru Institute of Engineering and Technology
+
 
 
 
